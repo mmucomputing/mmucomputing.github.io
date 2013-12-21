@@ -5,7 +5,7 @@ rdiscount:
   extensions: [smart]
 
 url: http://mmucs.co.uk
-title: MMU Computing Society
+name: MMU Computing Society
 twitter: mmucomputing
 github: mmucomputing
 
