@@ -1,0 +1,28 @@
+---
+layout: layout
+---
+
+{% assign author = site.authors[page.author] %}
+<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+
+<div id="sub-bar">
+  <div id="share-menu">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
+  </div>
+  <div id="by-line">
+    {{ page.date | date: "%B %e, %Y" }} &bull; {{ author.name }}
+  </div>
+</div>
+
+{{ content }}
+
+<div class="tag-line">
+  <div class="author-image">
+    <a href="https://twitter.com/{{ author.twitter }}" target="_blank">
+      <img class="photo" src="{{ author.image }}" alt="{{ author.name }}" height="80" width="80" />
+    </a>
+  </div>
+  <p>{{ author.bio }}</p>
+  <a href="http://twitter.com/{{ author.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ author.twitter }}</a>
+  <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
+</div>

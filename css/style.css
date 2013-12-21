@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html, body {
+  background: #f6f5f2;
+  font: 300 1.05em 'Lato', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00599c;
+  font-family: 'Montserrat', Arial;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+div.fixed-width {
+  margin: 0px auto;
+  max-width: 780px;
+}
+
+a {
+  color: #2ea0cb;
+  text-decoration: none;
+}
+
+  a:hover {
+    color: #00599c;
+  }
+
+img.photo
+{
+    float: left;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    max-width: 80px;
+    max-height: 80px;
+    padding: 3px;
+}
+
+div#header {
+  background: #00599c;
+  overflow: hidden;
+  padding: 5px 0px;
+
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;
+
+  position: relative;
+  z-index: 1;
+}
+
+div#header a {
+  color: #ffffff;
+  float: left;
+  font-weight: bold;
+}
+
+div#main {
+  background: #ffffff;
+  overflow: hidden;
+  padding: 10px;
+}
+
+div#main h1 {
+  font-size: 280%;
+  margin: 20px 0px;
+}
+
+div#mast-head {
+  float: left;
+  margin-right: 10px;
+}
+
+div#introduction {
+  font-size: 120%;
+  padding: 0px 0px 20px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+ul.listing li {
+  border-bottom: 1px dotted #aaaaaa;
+  padding:8px 0px;
+}
+
+ul.listing :nth-last-child(1) {
+  border-bottom: 0px;
+}
+
+ul.listing li span {
+  color: #aaaaaa;
+  float: right;
+  font-size: 60%;
+  padding: 0px 10px 0px 0px;
+  text-transform: uppercase;
+}
+
+div.tag-line {
+  color: #aaaaaa;
+  font-size: 80%;
+  padding-top: 10px;
+}
+
+div.author-image {
+  float: left;
+  margin-right: 20px;
+}
+
+div#sub-bar {
+  color: #aaaaaa;
+  font-size: 80%;
+  overflow: hidden;
+}
+
+div#by-line {
+  float: left;
+}
+
+div#share-menu {
+  float: right;
+}
