@@ -62,7 +62,7 @@ div#header {
   div#header a.title {
     float: left;
     font-size: 100%;
-    padding: 10px 0px;
+    padding: 10px;
   }
 
 ul#navigation {
@@ -82,7 +82,7 @@ ul#navigation {
 div#main {
   background: #ffffff;
   overflow: hidden;
-  padding: 10px;
+  padding: 10px 20px 40px;
 }
 
 div#main h1 {
