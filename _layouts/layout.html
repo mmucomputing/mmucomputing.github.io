@@ -15,18 +15,24 @@
 
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
 
-  <link rel="stylesheet" href="/css/fontawesome.min.css" type="text/css" media="screen, projection" />
-  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
-  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="/css/pygments.css" rel="stylesheet" type="text/css" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 </head>
 
 <body>
   <div id="header">
     <div class="fixed-width">
-      <a href="/">MMU Computing Society</a>
+      <ul id="navigation">
+        <li><a href="https://twitter.com/{{ site.twitter }}" title="Follow us on Twitter!"><i class="fa fa-2x fa-twitter-square"></i></a></li>
+        <li><a href="https://facebook.com/{{ site.facebook }}" title="Like us on Facebook!"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+        <li><a href="https://github.com/{{ site.github }}" title="Follow us on Github!"><i class="fa fa-2x fa-github"></i></a></li>
+      </ul>
+      <a class="title" href="/"><img src="/images/logo.png" alt="MMU Computing Society" /></a></h1>
     </div>
   </div>
+  <div id="masthead"></div>
   <div id="main" class="fixed-width">
     {{ content }}
   </div>

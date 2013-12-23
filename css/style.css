@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
 
 html, body {
   background: #f6f5f2;
@@ -11,7 +11,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #00599c;
-  font-family: 'Montserrat', Arial;
+  font-family: 'Quicksand', Arial;
   font-weight: normal;
 }
 
@@ -27,12 +27,13 @@ div.fixed-width {
 }
 
 a {
-  color: #2ea0cb;
+  color: #00599c;
   text-decoration: none;
+  transition: all 0.25s ease 0s;
 }
 
   a:hover {
-    color: #00599c;
+    color: #004482;
   }
 
 img.photo
@@ -47,23 +48,36 @@ img.photo
 }
 
 div#header {
-  background: #00599c;
+  background: #ffffff;
   overflow: hidden;
-  padding: 5px 0px;
 
   -moz-box-shadow: 0 0 5px #888;
   -webkit-box-shadow: 0 0 5px #888;
   box-shadow: 0 0 5px #888;
 
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
-div#header a {
-  color: #ffffff;
-  float: left;
-  font-weight: bold;
+  div#header a.title {
+    float: left;
+    font-size: 100%;
+    padding: 10px 0px;
+  }
+
+ul#navigation {
+  float: right;
 }
+
+  ul#navigation li {
+    float: left;
+  }
+
+    ul#navigation li a {
+      display: block;
+      font-size: 150%;
+      padding: 16px;
+    }
 
 div#main {
   background: #ffffff;
@@ -76,9 +90,12 @@ div#main h1 {
   margin: 20px 0px;
 }
 
-div#mast-head {
-  float: left;
-  margin-right: 10px;
+div#masthead {
+  background: url('../images/masthead.png') no-repeat;
+  background-size: cover;
+  height: 120px;
+
+  box-shadow: inset 0 0 15px rgba(0,0,0,.5);
 }
 
 div#introduction {
