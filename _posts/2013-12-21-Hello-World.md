@@ -16,4 +16,6 @@ Finally, it's time to give you guys an idea of what we'll be up to in the New Ye
 * An introduction to Python.
 * Selenium.
 
-... and a tonne more. In addition to these we will be running a lightning talk session, where students (and guests!) who don't want to talk for an entire 30 minute session can talk about something which interests them for a few minutes with some Q&A. This is a fabulous opportunity for students to develop their speaking skills and share their passion with others, as well as learn something new. We also intend on running the assignment drop-in sessions, although these may be changed to exam preparation sessions.
+... and a tonne more. In addition to these we will be running a lightning talk session, where students (and guests!) who don't want to talk for an entire 30 minute session can talk about something which interests them for a few minutes with some Q&A. This is a fabulous opportunity for students to develop their speaking skills and share their passion with others, as well as learn something new. We also intend on running the assignment drop-in sessions, although these may be changed to exam preparation sessions. As always, if there's something you're interested in hearing about, please feel free to post on the Facebook group or get in touch with any of the committee.
+
+I look forward to seeing you all again after the holidays!
