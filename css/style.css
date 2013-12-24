@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
 
 html, body {
-  background: #f6f5f2;
+  background: rgb(246,245,242);
   font: 300 1.05em 'Lato', Helvetica, Arial, sans-serif;
   line-height: 1.4em;
   margin: 0px;
@@ -10,7 +10,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #00599c;
+  color: rgb(0,89,156);
   font-family: 'Quicksand', Arial;
   font-weight: normal;
 }
@@ -22,75 +22,80 @@ ul {
 }
 
 div.fixed-width {
-  margin: 0px auto;
   max-width: 780px;
 }
 
+div.centered {
+  margin: 0px auto;
+}
+
 a {
-  color: #00599c;
+  color: rgb(0,89,156);
   text-decoration: none;
   transition: all 0.25s ease 0s;
 }
 
   a:hover {
-    color: #004482;
+    color: rgb(0,68,130);
+    text-decoration: none;
   }
 
-img.photo
+img.avatar
 {
-    float: left;
-    background: #ffffff;
-    border: 1px solid #cccccc;
+    background: rgb(255,255,255);
+    border: 1px solid rgb(204,204,204);
     border-radius: 50%;
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 120px;
+    max-height: 120px;
     padding: 3px;
 }
 
-div#header {
-  background: #ffffff;
+div.header {
+  background: rgb(255,255,255);
   overflow: hidden;
 
-  -moz-box-shadow: 0 0 5px #888;
-  -webkit-box-shadow: 0 0 5px #888;
-  box-shadow: 0 0 5px #888;
+  -moz-box-shadow: 0 0 5px rgb(136,136,136);
+  -webkit-box-shadow: 0 0 5px rgb(136,136,136);
+  box-shadow: 0 0 5px rgb(136,136,136);
 
   position: relative;
   z-index: 2;
 }
 
-  div#header a.title {
+  div.header a.title {
     float: left;
     font-size: 100%;
     padding: 10px 0px;
   }
 
-ul#navigation {
+ul.navigation {
   float: right;
 }
 
-  ul#navigation li {
+  ul.navigation li {
     float: left;
   }
 
-    ul#navigation li a {
+    ul.navigation li a {
       display: block;
       font-size: 150%;
       padding: 16px;
     }
 
-div#main {
-  background: #ffffff;
+div.main {
+  color: rgb(51, 51, 51);
+  background: rgb(255, 255, 255);
+  font-size: 120%;
   overflow: hidden;
   padding: 10px 20px 40px;
 }
 
-div#main h1 {
-  font-size: 280%;
+h1.article-title {
+  font-size: 250%;
   margin: 20px 0px;
 }
 
-div#masthead {
+div.masthead {
   background: url('../images/masthead.png') no-repeat;
   background-size: cover;
   height: 120px;
@@ -98,7 +103,7 @@ div#masthead {
   box-shadow: inset 0 0 15px rgba(0,0,0,.5);
 }
 
-div#introduction {
+div.introduction {
   font-size: 120%;
   padding: 0px 0px 20px;
   line-height: 1.5em;
@@ -106,7 +111,7 @@ div#introduction {
 }
 
 ul.listing li {
-  border-bottom: 1px dotted #aaaaaa;
+  border-bottom: 1px dotted rgb(170,170,170);
   padding:8px 0px;
 }
 
@@ -115,34 +120,42 @@ ul.listing :nth-last-child(1) {
 }
 
 ul.listing li span {
-  color: #aaaaaa;
+  color: rgb(170,170,170);
   float: right;
   font-size: 60%;
   padding: 0px 10px 0px 0px;
   text-transform: uppercase;
 }
 
-div.tag-line {
-  color: #aaaaaa;
+div.article {
+  margin-bottom: 20px;
+}
+
+div.article-footer {
+  color: rgb(170,170,170);
   font-size: 80%;
   padding-top: 10px;
 }
 
-div.author-image {
-  float: left;
-  margin-right: 20px;
+span.author-name {
+  color: rgb(0,89,156);
+  font-weight: bold;
 }
 
-div#sub-bar {
-  color: #aaaaaa;
+div.subtitle-bar {
+  border-top: 1px solid rgb(170,170,170);
+  border-bottom: 1px solid rgb(170,170,170);
+  color: rgb(170,170,170);
   font-size: 80%;
   overflow: hidden;
+  margin-bottom: 20px;
+  padding: 8px 0px;
 }
 
-div#by-line {
+div.article-details {
   float: left;
 }
 
-div#share-menu {
+div.share-options {
   float: right;
 }

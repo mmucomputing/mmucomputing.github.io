@@ -3,26 +3,38 @@ layout: layout
 ---
 
 {% assign author = site.authors[page.author] %}
-<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<h1 class="article-title">{{ page.title }}</h1>
 
-<div id="sub-bar">
-  <div id="share-menu">
-    <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
-  </div>
-  <div id="by-line">
-    {{ page.date | date: "%B %e, %Y" }} &bull; {{ author.name }}
+<div class="subtitle-bar">
+  <div class="article-details">
+    Published {{ page.date | date: "%B %e, %Y" }} &bull; By <span class="author-name">{{ author.name }}</span>
   </div>
 </div>
-
-{{ content }}
-
-<div class="tag-line">
-  <div class="author-image">
-    <a href="https://twitter.com/{{ author.twitter }}" target="_blank">
-      <img class="photo" src="{{ author.image }}" alt="{{ author.name }}" height="80" width="80" />
+<div class="article">
+  {{ content }}
+</div>
+<div class="subtitle-bar">
+  <div class="share-options addthis_toolbox addthis_default_style addthis_32x32_style">
+    <a class="addthis_button_facebook"></a>
+    <a class="addthis_button_twitter"></a>
+    <a class="addthis_button_linkedin"></a>
+    <a class="addthis_button_reddit"></a>
+    <a class="addthis_button_google_plusone_share"></a>
+  </div>
+</div>
+<div class="article-footer row-fluid">
+  <div class="span2">
+    <a href="https://twitter.com/{{ author.twitter }}" target="_blank" title="{{ author.name }}"><img class="avatar" src="{{ author.image }}" alt="{{ author.name }}" />
     </a>
   </div>
-  <p>{{ author.bio }}</p>
-  <a href="http://twitter.com/{{ author.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ author.twitter }}</a>
-  <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
+  <div class="span10">
+    <p><span class="author-name">{{ author.name }}</span></p>
+    <p>{{ author.bio }}</p>
+    <p>
+      <a href="http://twitter.com/{{ author.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ author.twitter }}</a>
+      <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
+    </p>
+  </div>
 </div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52b8f9ad429744c6"></script>
