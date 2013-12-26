@@ -1,6 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
 
+@media (max-width: 480px) {
+  div.fixed-width {
+    padding: 0px 20px;
+  }
+}
+
 html, body {
   font: 300 1.05em 'Lato', Helvetica, Arial, sans-serif;
   line-height: 1.4em;
@@ -24,13 +30,11 @@ div.centered {
 
 a {
   color: rgb(0,89,156);
-  text-decoration: none;
   transition: all 0.25s ease 0s;
 }
 
   a:hover {
     color: rgb(0,68,130);
-    text-decoration: none;
   }
 
 img.avatar
@@ -76,6 +80,10 @@ ul.navigation {
       display: block;
       font-size: 150%;
       padding: 16px;
+    }
+
+    ul.navigation li a :hover {
+      text-decoration: none;
     }
 
 div.main {
@@ -135,6 +143,10 @@ div.article {
 
   div.article p {
     margin: 25px 0px;
+  }
+
+  div.article a :hover {
+    text-decoration: underline;
   }
 
 div.article-footer {
