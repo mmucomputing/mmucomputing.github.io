@@ -57,7 +57,7 @@ As you commit and push changes from your desktop, Dropbox will synchronise the r
 
 Clone your Dropbox Repository into your Local Development Folder
 =====
-*For those of you used to working directly in Dropbox, this is the best time to stop. It becomes extremely fussy to do development inside your Dropbox folder, especially as you start to work on more complex projects which require third party libraries or source. A good practice is to create a folder called `Development` and store all projects in there.*
+*For those used to working directly in Dropbox, this is where you should start to move your development out of Dropbox. Working in the Dropbox folder defies the idea of only sharing what you want between devices. Furthermore, as you begin to work on more complex projects which depend on external libraries, sharing these between devices may not be appropriate. A good alternative is to create a folder on your machine called `Development` and store your projects plus any extras in there.*
 
 You need to now clone your newly created repository. You should receive a warning `You appear to have cloned an empty repository`, this can be ignored.
 
