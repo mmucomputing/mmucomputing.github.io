@@ -9,7 +9,7 @@
 
 html, body {
   font: 300 1.05em 'Lato', Helvetica, Arial, sans-serif;
-  line-height: 1.4em;
+  line-height: 1.8em;
   margin: 0px;
   padding: 0px;
 }
@@ -141,12 +141,28 @@ div.article {
   margin-bottom: 20px;
 }
 
+  div.article h1 {
+    font-size: 140%;
+    margin: 0px 0px 10px;
+  }
+
   div.article p {
-    margin: 25px 0px;
+    margin: 20px 0px;
+  }
+
+  div.article p code {
+    font-size: 1.05em;
+    background: none;
+    border: 0px;
   }
 
   div.article a :hover {
     text-decoration: underline;
+  }
+
+  div.article img {
+    display: block;
+    margin: 20px auto;
   }
 
 div.article-footer {

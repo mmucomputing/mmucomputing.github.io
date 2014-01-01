@@ -1,20 +1,22 @@
 .highlight {
-  margin: 0;
-  background-color: #eee;
-  font-size: 12px;
-  padding: 0px 15px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #111111;
+  font-size: 12px;
+  margin: 0px;
   overflow: hidden;
-  text-shadow: none;
-  color: #111;
+  padding: 0px 15px;
 }
-.hightlight code{
+
+.hightlight code {
   float: left;
 }
-.highlight:hover {
+
+.highlight :hover {
   overflow: auto;
 }
+
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #888888 } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
