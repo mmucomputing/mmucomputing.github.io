@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700);
 
 @media (max-width: 480px) {
   div.fixed-width {
@@ -16,8 +16,8 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgb(0,89,156);
-  font-family: 'Quicksand', Arial;
-  font-weight: normal;
+  font-family: 'Roboto Slab', Arial;
+  font-weight: bold;
 }
 
 div.fixed-width {
@@ -146,18 +146,24 @@ div.article {
     margin: 0px 0px 10px;
   }
 
-  div.article p {
+  div.article p, div.article p ul li p {
+    line-height: 1.8em;
     margin: 20px 0px;
   }
 
   div.article p code {
+    color: #000000;
     font-size: 1.05em;
-    background: none;
+    background: none repeat scroll 0% 0% #FFFFC8;
     border: 0px;
   }
 
+  div.article a {
+    border-bottom: 1px dotted transparent;
+  }
+
   div.article a :hover {
-    text-decoration: underline;
+    background: rgb(0,89,156);
   }
 
   div.article img {
