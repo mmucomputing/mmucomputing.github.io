@@ -146,6 +146,10 @@ div.article {
     margin: 0px 0px 10px;
   }
 
+  div.article ul li {
+    margin: 15px 0px;
+  }
+
   div.article p, div.article p ul li p {
     line-height: 1.8em;
     margin: 20px 0px;
