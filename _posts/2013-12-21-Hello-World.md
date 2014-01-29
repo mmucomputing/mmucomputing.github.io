@@ -4,8 +4,6 @@ title: Hello, World!
 author: jimmy
 ---
 
-Hello all,
-
 Firstly, welcome! This is our new website, which has (honestly) been a long time coming. Over the coming weeks we'll be populating it with resources from the talks and presentations we've already given and then we'll keep updating it as and when we do new talks. Furthermore, we also intend to publish some articles by students; we're excited to see what you guys are interested in writing about and hope to get some good content on here soon.
 
 I'm also excited to tell you we can finally accept student membership! Unfortunately, because we started after September in the academic year we struggled to get membership options. However, we can now accept membership for the low, low price of **£1!** We've opted to accept paid membership in order to maintain a decent quality of membership and we intend to provide benefits to those students who become paid members. If you're interested in goodies and helping us put on better events, please go [here](http://www.mmunion.co.uk/studentactivities/manchester/societies/computing/) and sign up!
