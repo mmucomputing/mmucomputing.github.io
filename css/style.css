@@ -47,6 +47,20 @@ a {
     color: rgb(0,68,130);
   }
 
+a.button {
+  background: rgb(0,89,156);
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-size: 0.6em;
+  float: right;
+  padding: 8px 12px;
+}
+
+  a.button:hover {
+    background: rgb(0,68,130);
+    text-decoration: none;
+  }
+
 img.avatar
 {
     background: rgb(255,255,255);
@@ -106,8 +120,8 @@ div.main {
 
 div.excerpt {
   color: rgb(170,170,170);
-  font-size: 60%;
-  line-height: 1.2;
+  font-size: 90%;
+  line-height: 1.4;
   padding: 10px 0px 0px;
 }
 
@@ -140,7 +154,8 @@ ul.listing {
 
   ul.listing li {
     border-bottom: 1px dotted rgb(170,170,170);
-    padding:8px 0px;
+    padding: 16px 0px;
+    overflow: hidden;
   }
 
   ul.listing :nth-last-child(1) {
@@ -151,7 +166,6 @@ ul.listing {
       color: rgb(170,170,170);
       float: right;
       font-size: 60%;
-      padding: 0px 10px 0px 0px;
       text-transform: uppercase;
     }
 
