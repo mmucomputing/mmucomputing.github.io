@@ -21,7 +21,7 @@ These aren't the only examples, but probably the most common encountered by stud
 Bare Basics
 ===
 
-Git is a complicated beast to tackle all at once. A *commit* is an individual piece of work. A good analogy for this is that commiting to Git is like saving your progress in a video game. You could load your game and be back where you saved (committed), even changing direction and going somewhere else. A *repository* is, in layman's terms, a bunch of commits in sequence.
+Git is a complicated beast to tackle all at once. A *commit* is an individual piece of work. A good analogy for this is that commiting to Git is like saving your progress in a video game. You could load your game and be back where you saved (committed), even changing direction and going somewhere else. A *repository* is, in layman's terms, a bunch of commits in sequence. Your current position in this repository (because you can move around on a whim) is called your `HEAD`.
 
 Your First Repository
 ===
